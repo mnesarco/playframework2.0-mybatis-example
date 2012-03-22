@@ -3,5 +3,11 @@ This is your new Play 2.0 application
 
 This is a port of http://www.playframework.org/documentation/2.0/ScalaTodoList to mybatis-scala
 
+Changed files are:
+
+models/DB.scala    few lines integrating the Mybatis Configuration to Play datasource
+models/Task.scala  Change anorm API calls to Mybatis API calls.
+
 See http://mybatis.org/scala
+See http://www.fdmtech.org/2011/12/mybatis-for-scala-1-0-beta-released/
 
